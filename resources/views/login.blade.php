@@ -26,14 +26,12 @@
                 <div class="Lhodl">
                     <p>login</p>
                     <form method="POST" action="">
-                        <input placeholder="email" type="email
-                        ">
-                        <input placeholder="password" type="pass
-                        ">
+                        <input placeholder="email" type="email" class="inputfield">
+                        <input placeholder="password" type="password" class="inputfield">
                         <div class="assistance">
                             <div class="assitance features">
                                 <input type="checkbox" name="rememberme" id="rememberme">
-                                <label for="rememberme">remember me</label>
+                                <label for="rememberme">Remember me</label>
                             </div>
                             <a href="#">forgot password</a>
                         </div>

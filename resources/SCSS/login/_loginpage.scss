@@ -6,6 +6,9 @@ $font: Questrial, Arial, Helvetica, sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("/public/images/background-img.png");
+}
 .login {
     max-width: 950px;
     margin-left: auto;
@@ -73,7 +76,7 @@ $font: Questrial, Arial, Helvetica, sans-serif;
                     color: white;
                     font-size: 1.5rem;
                 }
-                input {
+                .inputfield{
                     width: 100%;
                     margin: 10px 0;
                     padding: 10px 8px;
@@ -84,13 +87,17 @@ $font: Questrial, Arial, Helvetica, sans-serif;
                     border-radius: 4px;
                 }
                 .assistance {
+                    margin: 5px 0;
                     display: flex;
                     width: 100%;
                     justify-content: space-between;
                     font-family: $font ;
                     &.features {
-                        input{
-                            display: inline-block;
+                        input[type="checkbox"]{
+                            margin: 0 !important;
+                        }
+                        label{
+                            color: white;
                         }
                     }
                     a{
@@ -103,7 +110,7 @@ $font: Questrial, Arial, Helvetica, sans-serif;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin: 5px 0;
+                    margin: 25px 0;
                     .loginbtn{
                         display: inline-block;
                         line-height: 2.5rem;
@@ -120,6 +127,11 @@ $font: Questrial, Arial, Helvetica, sans-serif;
                         font-family: $font;
                         text-transform: capitalize;
                         text-decoration: none;
+                        &:hover{
+                            background-color: white;
+                            border: 1px solid #212121;
+                            color: #212121;
+                        }
                     }
                 }
             }
