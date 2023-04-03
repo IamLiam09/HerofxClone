@@ -16,22 +16,28 @@
             <a href="#">
                 Home
             </a>
-            <a href="#">
+            <a href="/about">
                 About
             </a>
-            <a href="#">
+            <a href="/account-type">
                 Account Types
             </a>
-            <a href="#">
+            <a href="/platform">
                 Platform
             </a>
-            <a href="#">
+            <a href="/trading-asset">
                 Trading Assets
             </a>
-            <a href="#">
+            <a href="/FAQs">
                 FAQs
             </a>
-            <a href="#">
+            <a href="/funding-method">
+                funding-methods
+            </a>
+            <a href="/withdrawal-method">
+                withdrawal-methods
+            </a>
+            <a href="partners">
                 Partners  
             </a>
         </div>
