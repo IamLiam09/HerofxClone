@@ -30,7 +30,10 @@ class Homecontroller extends Controller
     public function withdrawal(){
         return view("withdrawal-method");
     }
-    public function assets(){
+    public function asset(){
         return view("trading-asset");
+    }
+    public function partners(){
+        return view("partners");
     }
 }

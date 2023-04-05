@@ -1,4 +1,5 @@
-@media screen and (max-width: 800px) {
+@import "../breakpoint.scss";
+@media (max-width: 400px) {
     .Rpage {
         max-width: 100%;
     }

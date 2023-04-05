@@ -1,4 +1,4 @@
-@yield('layout')
+@extends('layout')
 @section("content")
     <section>
         <div>funding methods</div>
@@ -12,7 +12,7 @@
         </div>
         <div>
             <div>
-                <img src="{{ url()}}">
+                <img src="{{ url("images/Herofx.png")}}">
             </div>
             <div>
                 <h1>Bitcoin</h1>
@@ -25,7 +25,7 @@
                 <p>Tether is a cryptocurrency that works the same as other cryptocurrencies. Tether’s price is relatively stable compared to other coins, which frequently fluctuate. This feature helps tether stand out amongst the other currencies. You can use Tether to make any transaction at HeroFX.</p>
             </div>
             <div>
-                <img src="{{ url()}}">
+                <img src="{{ url("images/Herofx.png")}}">
             </div>
         </div>
         <div>
