@@ -1,7 +1,9 @@
 @extends('layout')
 @section('content')
     <section>
-        <div>FAQs</div>
+        <div>
+            <img src="{{ URL('./images/herofxhomepage.png')}}" alt="">
+            FAQs</div>
         <div>
             <div>
                 <h1>

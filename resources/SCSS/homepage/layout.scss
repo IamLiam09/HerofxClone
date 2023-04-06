@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
 $font: Questrial, Arial, Helvetica, sans-serif;
-$navfont: 'Open Sans', sans-serif;
+$navfont: "Open Sans", sans-serif;
+$createaccfont: "Josefin Sans", sans-serif;
 * ::before,
-::after {
-    margin: 0;
-    padding: 0;
+::after,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
     box-sizing: border-box;
 }
 .layout {
@@ -18,14 +21,14 @@ $navfont: 'Open Sans', sans-serif;
         font-family: $navfont;
         &.logo {
             width: 150px;
-            img{
+            img {
                 object-fit: contain;
             }
         }
         &.link {
-            ul{
+            ul {
                 list-style: none;
-                li{
+                li {
                     position: relative;
                     float: left;
                     a {
@@ -34,28 +37,28 @@ $navfont: 'Open Sans', sans-serif;
                         color: black;
                         display: block;
                         text-transform: capitalize;
-                        &:hover{
+                        &:hover {
                             border-bottom: 3px solid rgb(57, 140, 235);
                         }
                     }
-                    ul{
+                    ul {
                         position: absolute;
                         left: 0;
                         width: 180px;
                         display: none;
-                        li{
+                        li {
                             width: 100%;
-                            &:hover{
+                            &:hover {
                                 background: rgb(57, 140, 235);
                             }
                         }
                     }
-                    &:hover > ul{
+                    &:hover > ul {
                         display: initial;
                     }
                 }
             }
-            span{
+            span {
                 font-size: 24px;
                 display: inline-block;
                 position: absolute;
@@ -69,28 +72,28 @@ $navfont: 'Open Sans', sans-serif;
                 z-index: 99;
                 display: none;
                 background: white;
-                li{
+                li {
                     display: block;
-                    a:hover{
+                    a:hover {
                         display: block;
                         background: white;
                     }
                 }
             }
         }
-        .users{
+        .users {
             padding-top: inherit !important;
             font-size: 0.8rem;
             font-weight: bold;
             margin: 0 10px;
             margin-top: 12px !important;
-            a{
+            a {
                 text-decoration: none;
                 color: white;
                 border-radius: 5px;
                 text-transform: uppercase;
             }
-            &.login{
+            &.login {
                 background: linear-gradient(
                     140deg,
                     rgba(14, 66, 240, 1) 0%,
@@ -100,7 +103,7 @@ $navfont: 'Open Sans', sans-serif;
                 width: 20px;
                 text-align: center;
             }
-            &.register{
+            &.register {
                 background: linear-gradient(
                     140deg,
                     rgba(14, 66, 240, 1) 0%,
@@ -111,7 +114,7 @@ $navfont: 'Open Sans', sans-serif;
             }
         }
     }
-    .homepageaccount{
+    .homepageaccount {
         background: linear-gradient(
             140deg,
             rgb(39, 66, 156) 0%,
@@ -125,25 +128,115 @@ $navfont: 'Open Sans', sans-serif;
         flex-direction: column;
         margin: 0 !important;
         color: white;
-        .inner{
+        .inner {
             text-align: center;
             line-height: 1.3em;
             font-family: $navfont;
-            .createsignup{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1 {
+                font-family: $createaccfont;
+                font-weight: 700;
+                font-size: 3em;
+                margin-bottom: 5px;
+            }
+            .createsignup {
                 background: linear-gradient(
                     140deg,
                     rgba(14, 66, 240, 1) 0%,
                     rgb(136, 213, 235) 74%
                 );
-                padding: 10px 15px;
+                padding: 0.8em 2em;
                 text-decoration: none;
                 color: black;
                 display: block;
                 text-transform: capitalize;
-                width: 120px;
                 border-radius: 5px;
                 color: white;
             }
+        }
+    }
+    .bottom {
+        background: #d5daeb;
+        width: 100%;
+    }
+    .bottomnav {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        .bimagehodl {
+            .imghodl {
+                img {
+                    width: 250px;
+                }
+            }
+            p {
+                font-size: 0.9rem;
+                line-height: 2em;
+                font-family: $navfont;
+                font-weight: 400;
+            }
+        }
+        &.link {
+            ul {
+                list-style: none;
+                li {
+                    position: relative;
+                    float: top;
+                    a {
+                        padding: 10px 15px;
+                        text-decoration: none;
+                        color: black;
+                        display: block;
+                        text-transform: capitalize;
+                        font-size: 0.9rem;
+                        font-family: $navfont;
+                        font-weight: 600;
+                        &:hover {
+                            color: rgb(57, 140, 235);
+                        }
+                    }
+                    ul {
+                        position: absolute;
+                        left: 0;
+                        width: 180px;
+                        display: none;
+                        li {
+                            width: 100%;
+                            &:hover {
+                                background: rgb(57, 140, 235);
+                            }
+                        }
+                    }
+                    &:hover > ul {
+                        display: initial;
+                    }
+                }
+            }
+        }
+        .contact {
+            p {
+                font-size: 0.8rem;
+                line-height: 2em;
+                font-family: $navfont;
+                font-weight: 400;
+            }
+        }
+    }
+    .disclamer {
+        width: 80%;
+        margin: auto;
+        p {
+            line-height: 1.6em;
+            font-family: $navfont;
+            font-weight: 100;
+            font-size: 0.9em;
+        }
+        .copyright {
+            text-align: center;
         }
     }
 }

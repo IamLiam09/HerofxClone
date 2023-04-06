@@ -1,5 +1,5 @@
 @extends("layout")
-@section("content", "platform")
+@section("content")
     <section>
         <div>Platform</div>
         <div>
@@ -7,7 +7,7 @@
                 <h1>The power of choice</h1>
                 <h4>Now offering MT5 and MT4, Tradingview soon to come.</h4>
             </div>
-            <img src="{{url('/herofx.png')}}">
+            <img src="{{url('/images/herofxhomepage')}}">
         </div>
         <div>
             <h1>Download the MetaTrader Platform</h1>
