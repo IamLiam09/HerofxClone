@@ -117,8 +117,8 @@ body {
     .homepageaccount {
         background: linear-gradient(
             140deg,
-            rgb(39, 66, 156) 0%,
-            rgb(6, 162, 206) 74%
+            rgb(40, 23, 102) 0%,
+            rgb(11, 149, 187) 74%
         );
         width: 100%;
         height: 300px;
@@ -140,7 +140,10 @@ body {
                 font-family: $createaccfont;
                 font-weight: 700;
                 font-size: 3em;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
+            }
+            p{
+                line-height: 2em;
             }
             .createsignup {
                 background: linear-gradient(
@@ -166,9 +169,10 @@ body {
         display: flex;
         justify-content: space-between;
         width: 80%;
-        margin: auto;
+        margin: 10px auto;
         .bimagehodl {
             .imghodl {
+                margin-top: 40px;
                 img {
                     width: 250px;
                 }
@@ -218,11 +222,18 @@ body {
             }
         }
         .contact {
+            margin-top: 30px;
             p {
                 font-size: 0.8rem;
                 line-height: 2em;
                 font-family: $navfont;
                 font-weight: 400;
+            }
+            .social{
+                i{
+                    font-size: 1.5em;
+                    padding: 10px;
+                }
             }
         }
     }

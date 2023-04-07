@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield("title")</title>
     @vite(['resources/scss/style.scss', 'resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
     <div class="layout">
@@ -69,7 +70,7 @@
             <section class="bottomnav">
                 <div class="bimagehodl">
                     <div class="imghodl">
-                        <img src="{{ URL("images/Herofx.png")}}">
+                        <img src="{{ URL("images/logo-bottom.png")}}">
                     </div>
                     <p>Trade Forex, Cryptos, and Indices with confidence <br>today! Up to 1:500 Leverage! The best market conditions. Truly RAW spreads. Zero commission <br> options. Newest trading technology.</p>
                 </div>
@@ -113,12 +114,12 @@
                     <p>Email: support@herofx.co</p>
                     <br>
                     <p>Phone: (833) 4-HEROFX / (833) 443-7639</p>
-                    <div>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-solid fa-envelope"></i>
-                        <i class="fa-solid fa-phone"></i>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab  fa-instagram"></i>
+                        <i class="fas fa-solid fa-envelope"></i>
+                        <i class="fas fa-solid fa-phone"></i>
                     </div>
                 </div>
             </section>

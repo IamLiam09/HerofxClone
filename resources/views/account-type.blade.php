@@ -1,9 +1,11 @@
 @extends('layout')
 @section('content')
-<section>
-    <div>About</div>
-    <section>
-        <div>
+<section class="account-type">
+    <div class="imghodl">
+            <div class="img"><h1>account types</h1><br><p>We offer multiple account types to meet the needs of all traders.</p></div>
+        </div>
+    <section class="main">
+        <div class="first" id="first">
             <h2>Raw Spread</h2>
             <div>
                 <p>raw spread(starting at 0.01pips)
@@ -20,7 +22,7 @@
             </div>
             <a href="#">Open account</a>
         </div>
-        <div>
+        <div class="second" id="second">
             <h2>No commission</h2>
             <div>
                 <p>low spread(starting at 1.5pips)
