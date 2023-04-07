@@ -2,7 +2,12 @@
 @section('content')
 <section class="account-type">
     <div class="imghodl">
-            <div class="img"><h1>account types</h1><br><p>We offer multiple account types to meet the needs of all traders.</p></div>
+            <div class="img">
+                <div>
+                    <h1>account types</h1>
+                    <p>We offer multiple account types to meet the needs of all traders.</p>
+                </div>
+            </div>
         </div>
     <section class="main">
         <div class="first" id="first">
