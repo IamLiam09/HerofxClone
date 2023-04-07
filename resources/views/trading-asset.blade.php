@@ -1,227 +1,243 @@
-@yield("layout")
+@extends("layout")
 @section("content")
-<section>
+<section class="trading-asset">
     <div>
-        <div>
+        <div class="currency major" id="major">
             <h1>Forex Major</h1>
-            <p>Audusd</p>
-            <p>eurusd</p>
-            <p>gbpusd</p>
-            <p>nzdusd</p>
-            <p>usdusd</p>
-            <p>usdchf</p>
-            <p>usdjpy</p>
+            <p><i class="fas fa-check"></i>Audusd</p>
+            <p><i class="fas fa-check"></i>eurusd</p>
+            <p><i class="fas fa-check"></i>gbpusd</p>
+            <p><i class="fas fa-check"></i>nzdusd</p>
+            <p><i class="fas fa-check"></i>usdusd</p>
+            <p><i class="fas fa-check"></i>usdchf</p>
+            <p><i class="fas fa-check"></i>usdjpy</p>
+        </div>
+    </div>
+    <div class="Mihodl">
+        <h1>Forex Minors</h1>
+        <div class="currency minors">
+            <p><i class="fas fa-check"></i>Audcad</p>
+            <p><i class="fas fa-check"></i>cadchf</p>
+            <p><i class="fas fa-check"></i>eurgbp</p>
+            <p><i class="fas fa-check"></i>gbpcad</p>
+            <p><i class="fas fa-check"></i>nzdcad</p>
+            <p><i class="fas fa-check"></i>audchf</p>
+            <p><i class="fas fa-check"></i>cadjpy</p>
+            <p><i class="fas fa-check"></i>eurjpy</p>
+            <p><i class="fas fa-check"></i>gbpchf</p>
+            <p><i class="fas fa-check"></i>nzdchf</p>
+            <p><i class="fas fa-check"></i>audjpy</p>
+            <p><i class="fas fa-check"></i>euraud</p>
+            <p><i class="fas fa-check"></i>eurnzd</p>
+            <p><i class="fas fa-check"></i>gbpjpy</p>
+            <p><i class="fas fa-check"></i>nzdjpy</p>
+            <p><i class="fas fa-check"></i>audnzd</p>
+            <p><i class="fas fa-check"></i>eurcad</p>
+            <p><i class="fas fa-check"></i>gbpaud</p>
+            <p><i class="fas fa-check"></i>gbpnzd</p>
+        </div>
+    </div>
+    <div class="Mihodl">
+        <h1>Forex Exotics</h1>
+        <div class="currency exotics">
+            <p><i class="fas fa-check"></i>Eurnok</p>
+            <p><i class="fas fa-check"></i>usdnok</p>
+            <p><i class="fas fa-check"></i>eurtry</p>
+            <p><i class="fas fa-check"></i>usdczk</p>
+            <p><i class="fas fa-check"></i>usdhkd</p>
+            <p><i class="fas fa-check"></i>gbpnok</p>
+            <p><i class="fas fa-check"></i>eurhkd</p>
+            <p><i class="fas fa-check"></i>cadsgd</p>
+            <p><i class="fas fa-check"></i>chfnok</p>
+            <p><i class="fas fa-check"></i>gbphuf</p>
+            <p><i class="fas fa-check"></i>noksek</p>
+            <p><i class="fas fa-check"></i>sgdjpy</p>
+            <p><i class="fas fa-check"></i>nzdsgd</p>
+            <p><i class="fas fa-check"></i>eursek</p>
+            <p><i class="fas fa-check"></i>usdsek</p>
+            <p><i class="fas fa-check"></i>eurzar</p>
+            <p><i class="fas fa-check"></i>usdhuf</p>
+            <p><i class="fas fa-check"></i>usdzar</p>
+            <p><i class="fas fa-check"></i>usdpln</p>
+            <p><i class="fas fa-check"></i>gbppln</p>
+            <p><i class="fas fa-check"></i>eurmxn</p>
+            <p><i class="fas fa-check"></i>chfhuf</p>
+            <p><i class="fas fa-check"></i>Hdkjpy</p>
+            <p><i class="fas fa-check"></i>Eurpln</p>
+            <p><i class="fas fa-check"></i>tryjpy</p>
+            <p><i class="fas fa-check"></i>nokjpy</p>
+            <p><i class="fas fa-check"></i>eurczk</p>
+            <p><i class="fas fa-check"></i>gbptry</p>
+            <p><i class="fas fa-check"></i>usdmxn</p>
+            <p><i class="fas fa-check"></i>eurrub</p>
+            <p><i class="fas fa-check"></i>usdsgd</p>
+            <p><i class="fas fa-check"></i>gbpsgd</p>
+            <p><i class="fas fa-check"></i>eursgd</p>
+            <p><i class="fas fa-check"></i>chfdkk</p>
+            <p><i class="fas fa-check"></i>gbpdkk</p>
+            <p><i class="fas fa-check"></i>zarjpy</p>
+            <p><i class="fas fa-check"></i>usddkk</p>
+            <p><i class="fas fa-check"></i>eurhuf</p>
+            <p><i class="fas fa-check"></i>gbpzar</p>
+            <p><i class="fas fa-check"></i>usdrub</p>
+            <p><i class="fas fa-check"></i>usdcnh</p>
+            <p><i class="fas fa-check"></i>gbphkd</p>
+            <p><i class="fas fa-check"></i>gbpsek</p>
+            <p><i class="fas fa-check"></i>noksek</p>
         </div>
     </div>
     <div>
-        <div>
-            <h1>Forex Minors</h1>
-            <p>Audcad</p>
-            <p>cadchf</p>
-            <p>eurgbp</p>
-            <p>gbpcad</p>
-            <p>nzdcad</p>
-            <p>audchf</p>
-            <p>cadjpy</p>
-            <p>eurjpy</p>
-            <p>gbpchf</p>
-            <p>nzdchf</p>
-            <p>audjpy</p>
-            <p>euraud</p>
-            <p>eurnzd</p>
-            <p>gbpjpy</p>
-            <p>nzdjpy</p>
-            <p>audnzd</p>
-            <p>eurcad</p>
-            <p>gbpaud</p>
-            <p>gbpnzd</p>
-        </div>
-        <div>
-            <h1>Forex Exotics</h1>
-            <p>Eurnok</p>
-            <p>usdnok</p>
-            <p>eurtry</p>
-            <p>usdczk</p>
-            <p>usdhkd</p>
-            <p>gbpnok</p>
-            <p>eurhkd</p>
-            <p>cadsgd</p>
-            <p>chfnok</p>
-            <p>gbphuf</p>
-            <p>noksek</p>
-            <p>sgdjpy</p>
-            <p>nzdsgd</p>
-            <p>eursek</p>
-            <p>usdsek</p>
-            <p>eurzar</p>
-            <p>usdhuf</p>
-            <p>usdzar</p>
-            <p>usdpln</p>
-            <p>gbppln</p>
-            <p>eurmxn</p>
-            <p>chfhuf</p>
-            <p>Hdkjpy</p>
-            <p>Eurpln</p>
-            <p>tryjpy</p>
-            <p>nokjpy</p>
-            <p>eurczk</p>
-            <p>gbptry</p>
-            <p>usdmxn</p>
-            <p>eurrub</p>
-            <p>usdsgd</p>
-            <p>gbpsgd</p>
-            <p>eursgd</p>
-            <p>chfdkk</p>
-            <p>gbpdkk</p>
-            <p>zarjpy</p>
-            <p>usddkk</p>
-            <p>eurhuf</p>
-            <p>gbpzar</p>
-            <p>usdrub</p>
-            <p>usdcnh</p>
-            <p>gbphkd</p>
-            <p>gbpsek</p>
-            <p>noksek</p>
-        </div>
-        <div>
+        <div class="currency major">
             <h1>Forex Majors</h1>
-            <p>Audusd</p>
-            <p>eurusd</p>
-            <p>gbpusd</p>
-            <p>nzdusd</p>
-            <p>usdcad</p>
-            <p>usdchf</p>
-            <p>usdjpy</p>
+            <p><i class="fas fa-check"></i>Audusd</p>
+            <p><i class="fas fa-check"></i>eurusd</p>
+            <p><i class="fas fa-check"></i>gbpusd</p>
+            <p><i class="fas fa-check"></i>nzdusd</p>
+            <p><i class="fas fa-check"></i>usdcad</p>
+            <p><i class="fas fa-check"></i>usdchf</p>
+            <p><i class="fas fa-check"></i>usdjpy</p>
         </div>
-        <div>
-            <h1>Forex Majors</h1>
-            <p>xageur</p>
-            <p>xagusd</p>
-            <p>xaueur</p>
-            <p>xauusd</p>
-            <p>xpdusd</p>
-            <p>xptusd</p>
-            <p>xauaud</p>
+    </div>
+    <div>
+        <div class="currency major">
+            <h1>Metals</h1>
+            <p><i class="fas fa-check"></i>xageur</p>
+            <p><i class="fas fa-check"></i>xagusd</p>
+            <p><i class="fas fa-check"></i>xaueur</p>
+            <p><i class="fas fa-check"></i>xauusd</p>
+            <p><i class="fas fa-check"></i>xpdusd</p>
+            <p><i class="fas fa-check"></i>xptusd</p>
+            <p><i class="fas fa-check"></i>xauaud</p>
         </div>
-        <div>
-            <h1>indices</h1>
-            <p>aus200</p>
-            <p>uk100</p>
-            <p>spx500</p>
-            <p>de30</p>
-            <p>jp225</p>
-            <p>us30</p>
-            <p>f40</p>
-            <p>nas100</p>
+    </div>
+    <div class="Mihodl">
+        <h1>indices</h1>
+        <div class="currency indices">
+            <p><i class="fas fa-check"></i>aus200</p>
+            <p><i class="fas fa-check"></i>uk100</p>
+            <p><i class="fas fa-check"></i>spx500</p>
+            <p><i class="fas fa-check"></i>de30</p>
+            <p><i class="fas fa-check"></i>jp225</p>
+            <p><i class="fas fa-check"></i>us30</p>
+            <p><i class="fas fa-check"></i>f40</p>
+            <p><i class="fas fa-check"></i>nas100</p>
         </div>
+    </div>
+    <div class="Mihodl">
         <div>
             <h1>energies</h1>
-            <p>ngas</p>
-            <p>ukoil</p>
-            <p>usoil</p>
+            <p><i class="fas fa-check"></i>ngas</p>
+            <p><i class="fas fa-check"></i>ukoil</p>
+            <p><i class="fas fa-check"></i>usoil</p>
         </div>
+        <br>
         <div>
             <h1>futures</h1>
-            <p>cocoa</p>
-            <p>coffee</p>
-            <p>copper</p>
-            <p>cotton</p>
-            <p>sugar</p>
+            <p><i class="fas fa-check"></i>cocoa</p>
+            <p><i class="fas fa-check"></i>coffee</p>
+            <p><i class="fas fa-check"></i>copper</p>
+            <p><i class="fas fa-check"></i>cotton</p>
+            <p><i class="fas fa-check"></i>sugar</p>
         </div>
-        <div>
-            <h1>crypto</h1>
-            <p>btcusd</p>
-            <p>neousd</p>
-            <p>zecusd</p>
-            <p>bnbusd</p>
-            <p>edousd</p>
-            <p>bcheur</p>
-            <p>ethgbp</p>
-            <p>adausd</p>
-            <p>ethusd</p>
-            <p>eosusd</p>
-            <p>omgusd</p>
-            <p>dasusd</p>
-            <p>etcusd</p>
-            <p>etcusd</p>
-            <p>btceur</p>
-            <p>ltceur</p>
-            <p>ltcusd</p>
-            <p>etpusd</p>
-            <p>sanusd</p>
-            <p>iotusd</p>
-            <p>xlmusd</p>
-            <p>btcgbp</p>
-            <p>ltcgbp</p>
-            <p>xrpusd</p>
-            <p>xmrusd</p>
-            <p>trxusd</p>
-            <p>qtuusd</p>
-            <p>bchusd</p>
-            <p>etheur</p>
-            <p>dogeusd</p>
+    </div>
+    <div class="cryhodl">
+        <h1>crypto</h1>
+        <div class="currency crypto">
+            <p><i class="fas fa-check"></i>btcusd</p>
+            <p><i class="fas fa-check"></i>neousd</p>
+            <p><i class="fas fa-check"></i>zecusd</p>
+            <p><i class="fas fa-check"></i>bnbusd</p>
+            <p><i class="fas fa-check"></i>edousd</p>
+            <p><i class="fas fa-check"></i>bcheur</p>
+            <p><i class="fas fa-check"></i>ethgbp</p>
+            <p><i class="fas fa-check"></i>adausd</p>
+            <p><i class="fas fa-check"></i>ethusd</p>
+            <p><i class="fas fa-check"></i>eosusd</p>
+            <p><i class="fas fa-check"></i>omgusd</p>
+            <p><i class="fas fa-check"></i>dasusd</p>
+            <p><i class="fas fa-check"></i>etcusd</p>
+            <p><i class="fas fa-check"></i>etcusd</p>
+            <p><i class="fas fa-check"></i>btceur</p>
+            <p><i class="fas fa-check"></i>ltceur</p>
+            <p><i class="fas fa-check"></i>ltcusd</p>
+            <p><i class="fas fa-check"></i>etpusd</p>
+            <p><i class="fas fa-check"></i>sanusd</p>
+            <p><i class="fas fa-check"></i>iotusd</p>
+            <p><i class="fas fa-check"></i>xlmusd</p>
+            <p><i class="fas fa-check"></i>btcgbp</p>
+            <p><i class="fas fa-check"></i>ltcgbp</p>
+            <p><i class="fas fa-check"></i>xrpusd</p>
+            <p><i class="fas fa-check"></i>xmrusd</p>
+            <p><i class="fas fa-check"></i>trxusd</p>
+            <p><i class="fas fa-check"></i>qtuusd</p>
+            <p><i class="fas fa-check"></i>bchusd</p>
+            <p><i class="fas fa-check"></i>etheur</p>
+            <p><i class="fas fa-check"></i>dogeusd</p>
         </div>
-        <div>
-            <h1>stocks(shares)</h1>
-            <p>adidas</p>
-            <p>bbva</p>
-            <p>daimler</p>
-            <p>lufthansa</p>
-            <p>societe</p>
-            <p>aig</p>
-            <p>amex</p>
-            <p>boeing</p>
-            <p>coca+cola</p>
-            <p>fedex</p>
-            <p>gm</p>
-            <p>ibm</p>
-            <p>microsoft</p>
-            <p>oracle</p>
-            <p>teva</p>
-            <p>air+france</p>
-            <p>bmw</p>
-            <p>deutsche+bk</p>
-            <p>Lvmh</p>
-            <p>telefonica</p>
-            <p>alibab</p>
-            <p>apple</p>
-            <p>chevron</p>
-            <p>ebay</p>
-            <p>ferrrari</p>
-            <p>goldmans</p>
-            <p>intel</p>
-            <p>mstrcard</p>
-            <p>p&g</p>
-            <p>twitter</p>
-        <p>allianz</p>
-        <p>bnp</p>
-        <p>deutsche+po</p>
-        <p>santander</p>
-        <p>total</p>
-        <p>alphabet+c</p>
-        <p>at&t</p>
-        <p>cisco</p>
-        <p>exxoin</p>
-        <p>ford</p>
-        <p>hilton</p>
-        <p>johnson</p>
-        <p>mcd</p>
-        <p>pfizer</p>
-        <p>visa</p>
-        <p>bayer</p>
-        <p>commerszbank</p>
-        <p>eon</p>
-        <p>volkswagen</p>
-        <p>amazon</p>
-        <p>bnk+amer</p>
-        <p>citi</p>
-        <p>facebook</p>
-        <p>ge</p>
-        <p>hp</p>
-        <p>jpmorgan</p>
-        <p>netflix</p>
-        <p>tesla</p>
+    </div>
+    <div class="sthodl">
+        <h1>stocks(shares)</h1>
+        <div class="stock">
+            <p><i class="fas fa-check"></i>adidas</p>
+            <p><i class="fas fa-check"></i>bbva</p>
+            <p><i class="fas fa-check"></i>daimler</p>
+            <p><i class="fas fa-check"></i>lufthansa</p>
+            <p><i class="fas fa-check"></i>societe</p>
+            <p><i class="fas fa-check"></i>aig</p>
+            <p><i class="fas fa-check"></i>amex</p>
+            <p><i class="fas fa-check"></i>boeing</p>
+            <p><i class="fas fa-check"></i>coca+cola</p>
+            <p><i class="fas fa-check"></i>fedex</p>
+            <p><i class="fas fa-check"></i>gm</p>
+            <p><i class="fas fa-check"></i>ibm</p>
+            <p><i class="fas fa-check"></i>microsoft</p>
+            <p><i class="fas fa-check"></i>oracle</p>
+            <p><i class="fas fa-check"></i>teva</p>
+            <p><i class="fas fa-check"></i>air+france</p>
+            <p><i class="fas fa-check"></i>bmw</p>
+            <p><i class="fas fa-check"></i>deutsche+bk</p>
+            <p><i class="fas fa-check"></i>Lvmh</p>
+            <p><i class="fas fa-check"></i>telefonica</p>
+            <p><i class="fas fa-check"></i>alibab</p>
+            <p><i class="fas fa-check"></i>apple</p>
+            <p><i class="fas fa-check"></i>chevron</p>
+            <p><i class="fas fa-check"></i>ebay</p>
+            <p><i class="fas fa-check"></i>ferrrari</p>
+            <p><i class="fas fa-check"></i>goldmans</p>
+            <p><i class="fas fa-check"></i>intel</p>
+            <p><i class="fas fa-check"></i>mstrcard</p>
+            <p><i class="fas fa-check"></i>p&g</p>
+            <p><i class="fas fa-check"></i>twitter</p>
+            <p><i class="fas fa-check"></i>allianz</p>
+            <p><i class="fas fa-check"></i>bnp</p>
+            <p><i class="fas fa-check"></i>deutsche+po</p>
+            <p><i class="fas fa-check"></i>santander</p>
+            <p><i class="fas fa-check"></i>total</p>
+            <p><i class="fas fa-check"></i>alphabet+c</p>
+            <p><i class="fas fa-check"></i>at&t</p>
+            <p><i class="fas fa-check"></i>cisco</p>
+            <p><i class="fas fa-check"></i>exxoin</p>
+            <p><i class="fas fa-check"></i>ford</p>
+            <p><i class="fas fa-check"></i>hilton</p>
+            <p><i class="fas fa-check"></i>johnson</p>
+            <p><i class="fas fa-check"></i>mcd</p>
+            <p><i class="fas fa-check"></i>pfizer</p>
+            <p><i class="fas fa-check"></i>visa</p>
+            <p><i class="fas fa-check"></i>bayer</p>
+            <p><i class="fas fa-check"></i>commerszbank</p>
+            <p><i class="fas fa-check"></i>eon</p>
+            <p><i class="fas fa-check"></i>volkswagen</p>
+            <p><i class="fas fa-check"></i>amazon</p>
+            <p><i class="fas fa-check"></i>bnk+amer</p>
+            <p><i class="fas fa-check"></i>citi</p>
+            <p><i class="fas fa-check"></i>facebook</p>
+            <p><i class="fas fa-check"></i>ge</p>
+            <p><i class="fas fa-check"></i>hp</p>
+            <p><i class="fas fa-check"></i>jpmorgan</p>
+            <p><i class="fas fa-check"></i>netflix</p>
+            <p><i class="fas fa-check"></i>tesla</p>
         </div>
+    <div>
     </div>
 </section>
 @endsection("content")

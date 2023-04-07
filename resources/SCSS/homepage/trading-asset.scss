@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
+$font: Questrial, Arial, Helvetica, sans-serif;
+$navfont: "Open Sans", sans-serif;
+$createaccfont: "Josefin Sans", sans-serif;
+* ::before,
+::after,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+.trading-asset {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: $navfont;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: $createaccfont;
+        text-transform: capitalize;
+    }
+    .currency {
+        height: 400px;
+    }
+    .major {
+        text-transform: uppercase;
+        background-image: url("/public/images/dot-grid.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em 3em;
+    }
+    .Mihodl {
+        background-color: rgb(66, 202, 202);
+        padding: 1em 3em;
+        .minors {
+            display: grid;
+            gap: 0;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            p {
+                margin: 0 !important;
+                text-transform: uppercase;
+            }
+        }
+        .exotics {
+            display: grid;
+            gap: 0;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            p {
+                margin: 0 !important;
+                text-transform: uppercase;
+            }
+        }
+        .indices {
+            text-transform: uppercase;
+        }
+    }
+    .cryhodl {
+        padding: 1em 3em;
+    }
+    .crypto {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        p {
+            margin: 0 !important;
+            text-transform: uppercase;
+        }
+    }
+    .sthodl {
+        grid-column: span 2;
+        .stock {
+            height: 1000px;
+            display: grid;
+            gap: 0;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            p {
+                margin: 0 !important;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

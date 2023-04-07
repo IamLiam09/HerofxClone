@@ -29,7 +29,7 @@
                         Platform
                     </a></li>
                     <li>
-                        <a href="/trading-assets">
+                        <a href="/trading-asset">
                             trading assets <span>&#129171;</span>
                             <ul>
                                 <li><a href="funding-method">funding methods</a></li>

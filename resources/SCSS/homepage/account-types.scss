@@ -39,10 +39,93 @@ body {
                 text-transform: uppercase;
                 text-align: center;
             }
-            p{
+            p {
                 font-size: 0.6em;
                 color: white;
                 text-align: center;
+            }
+        }
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        .first {
+            padding: 4em 7em;
+            background: linear-gradient(
+                140deg,
+                rgba(14, 66, 240, 1) 0%,
+                rgba(61, 212, 253, 1) 74%
+            );
+            text-align: center;
+            color: white;
+            font-family: $createaccfont;
+            text-transform: capitalize;
+            font-size: 1.1em;
+            border-radius: 10px;
+            line-height: 0.8em;
+            margin: 50px 0;
+            position: relative;
+            .popular{
+                padding: 12px 40px;
+                position: absolute;
+                right: 2%;
+                top: 8%;
+                background-color: #F85000;
+                display: block;
+                transform: translateY(-20%) translateX(10%) translateX(25px) rotate(45deg);
+                text-transform: uppercase;
+                font-weight: 700;
+                z-index: 1;
+            }
+            h2{
+                padding: 20px 0;
+                text-transform: uppercase;
+            }
+            p{
+                font-family: $navfont;
+                padding: 15px 0;
+            }
+            i{
+                color: rgb(6, 226, 6);
+            }
+            a{
+                padding: 1em 3em;
+                color: white;
+                text-decoration: none;
+                background: #F85000;
+                border-radius: 6px;
+            }
+        }
+        .second{
+            padding: 4em 7em;
+            background: #999C9C;
+            text-align: center;
+            color: white;
+            font-family: $createaccfont;
+            text-transform: capitalize;
+            font-size: 1.1em;
+            border-radius: 10px;
+            line-height: 0.8em;
+            margin: 50px 0;
+            h2{
+                padding: 20px 0;
+                text-transform: uppercase;
+            }
+            p{
+                font-family: $navfont;
+                padding: 15px 0;
+            }
+            i{
+                color: rgb(6, 226, 6);
+            }
+            a{
+                padding: 1em 3em;
+                color: white;
+                text-decoration: none;
+                background: #818a91;
+                border-radius: 6px;
             }
         }
     }

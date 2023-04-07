@@ -11,36 +11,37 @@
         </div>
     <section class="main">
         <div class="first" id="first">
+            <div class="popular">popular</div>
             <h2>Raw Spread</h2>
             <div>
-                <p>raw spread(starting at 0.01pips)
+                <p><i class="fas fa-check"></i>raw spread (starting at 0.01pips)
             </div>
-                <p>flat rate commission</p>
+                <p><i class="fas fa-check"></i>flat rate commission</p>
             <div>
-                <p>hedging enabled</p>
-            </div>
-            <div>
-                <p>EA enabled</p>
+                <p><i class="fas fa-check"></i>hedging enabled</p>
             </div>
             <div>
-                <p>All pairs</p>
+                <p><i class="fas fa-check"></i>EA enabled</p>
+            </div>
+            <div>
+                <p><i class="fas fa-check"></i>All pairs</p>
             </div>
             <a href="#">Open account</a>
         </div>
         <div class="second" id="second">
             <h2>No commission</h2>
             <div>
-                <p>low spread(starting at 1.5pips)
+                <p><i class="fas fa-check"></i>low spread(starting at 1.5pips)
             </div>
-                <p>Zero commission</p>
+                <p><i class="fas fa-check"></i>Zero commission</p>
             <div>
-                <p>hedging enabled</p>
-            </div>
-            <div>
-                <p>EA enabled</p>
+                <p><i class="fas fa-check"></i>hedging enabled</p>
             </div>
             <div>
-                <p>All pairs</p>
+                <p><i class="fas fa-check"></i>EA enabled</p>
+            </div>
+            <div>
+                <p><i class="fas fa-check"></i>All pairs</p>
             </div>
             <a href="#">Open account</a>
         </div>
