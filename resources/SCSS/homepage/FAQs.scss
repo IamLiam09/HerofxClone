@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
-@import '~@fortawesome/fontawesome-free/css/all.css'; 
+@import "~@fortawesome/fontawesome-free/css/all.css";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
 $font: Questrial, Arial, Helvetica, sans-serif;
 $navfont: "Open Sans", sans-serif;
@@ -48,15 +48,15 @@ body {
         .hodl {
             max-width: 1000px;
             margin: auto;
-            #accordion{
-                li{
+            #accordion {
+                li {
                     list-style: none;
                     width: 100%;
                     margin-bottom: 10px;
                     background: #fff;
                     padding: 10px;
                     border-radius: 4px;
-                    label{
+                    label {
                         padding: 10px;
                         display: flex;
                         align-items: center;
@@ -71,20 +71,20 @@ body {
                         box-shadow: 0.2px 0.2px 1px 0px;
                     }
                 }
-                label + input[type="radio"]{
+                label + input[type="radio"] {
                     display: none;
                 }
-                .content{
-                    padding:  0 10px;
+                .content {
+                    padding: 0 10px;
                     line-height: 26px;
                     max-height: 0;
                     font-size: 0.9rem;
                     overflow: hidden;
                     transition: max-height 0.5s;
                 }
-                label + input[type="radio"]:checked + .content{
+                label + input[type="radio"]:checked + .content {
                     max-height: 400px;
-                    background-color: #0D1754;
+                    background-color: #0d1754;
                     color: white;
                     font-family: $navfont;
                 }
