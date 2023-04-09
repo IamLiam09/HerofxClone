@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
+$font: Questrial, Arial, Helvetica, sans-serif;
+$navfont: "Open Sans", sans-serif;
+$createaccfont: "Josefin Sans", sans-serif;
+* ::before,
+::after,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+.about {
+    .imghodl {
+        width: 100%;
+        height: 300px;
+        background-image: url("/public/images/herofxhomepage.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 2rem;
+        font-family: $createaccfont;
+        .img {
+            width: 100%;
+            height: inherit;
+            opacity: 0.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(
+                140deg,
+                rgba(14, 66, 240, 1) 0%,
+                rgb(136, 213, 235) 74%
+            );
+            h1 {
+                color: white;
+            }
+        }
+    }
+    .encap {
+        background-color: #d5daeb;
+        .writeup {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding-top: 50px;
+            h1 {
+                font-size: 3rem;
+                font-family: $createaccfont;
+                text-transform: uppercase;
+                line-height: 1.5;
+                margin: 10px 0;
+                font-weight: 700;
+                margin-block-start: 0 !important;
+            }
+            p {
+                font-family: $navfont;
+                font-size: 15px;
+                color: #494b51;
+                line-height: 1.5;
+            }
+            a {
+                background: linear-gradient(
+                    140deg,
+                    rgba(14, 66, 240, 1) 0%,
+                    rgb(136, 213, 235) 74%
+                );
+                padding: 1em 1em;
+                text-decoration: none;
+                color: black;
+                width: 190px;
+                display: block;
+                text-transform: capitalize;
+                border-radius: 5px;
+                color: white;
+                line-height: 1rem;
+                font-family: $navfont;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-top: 40px;
+            }
+            .services {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                padding-top: 60px;
+                .inner {
+                    width: 200px;
+                    height: 120px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background: white;
+                    font-family: $createaccfont;
+                    font-weight: 700;
+                    line-height: 1.7;
+                    text-transform: uppercase;
+                    color: #494b51;
+                    padding: 30px 30px 30px 30px;
+                    &:hover {
+                        border-bottom: 5px solid blue;
+                        transition: border 0.3s;
+                    }
+                }
+            }
+            .wrap {
+                max-width: 1000px;
+                margin: 50px auto;
+                display: flex;
+                justify-content: space-between;
+                text-transform: capitalize;
+                h4 {
+                    font-family: $createaccfont;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .academy {
+        width: 100%;
+        .hodl {
+            margin: 0 auto !important;
+            width: 1100px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 30px;
+            line-height: 1.5;
+            h2 {
+                font-family: $createaccfont;
+                color: black;
+                font-weight: 700;
+                font-size: 30px;
+                margin-block-start: 0 !important;
+                margin-block-end: 0 !important;
+            }
+            p {
+                font-family: $navfont;
+                font-size: 15px;
+                color: #494b51;
+                line-height: 1.5;
+                margin-block-start: 0 !important;
+                margin-block-end: 0 !important;
+                line-height: 2em;
+            }
+            i {
+                color: #4175fc;
+                font-size: 40px;
+            }
+            &:hover {
+                box-shadow: 0px 0px 40px 0px
+                    rgba(207, 204.74999999999997, 204.74999999999997, 0.5);
+                transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+            }
+        }
+    }
+    .gridhodl {
+        padding: 40px 0;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            row-gap: 50px;
+            .inner {
+                margin: 10px auto !important;
+                width: 500px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                padding: 30px 30px;
+                font-family: $navfont;
+                h2 {
+                    font-weight: 700;
+                    font-family: $createaccfont;
+                    margin-block-start: 0 !important;
+                    margin-block-end: 0 !important;
+                }
+                p {
+                    line-height: 1.9;
+                    font-size: 15px;
+                    margin-block-start: 0 !important;
+                    margin-block-end: 0 !important;
+                }
+                i {
+                    color: #4175fc;
+                    font-size: 40px;
+                }
+                &:hover {
+                    box-shadow: 0px 0px 40px 0px
+                        rgba(207, 204.74999999999997, 204.74999999999997, 0.5);
+                    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                }
+            }
+        }
+    }
+}

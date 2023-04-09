@@ -16,7 +16,7 @@
             </div>
             <div class="layout navbar link">
                 <ul>
-                    <li><a href="#">
+                    <li><a href="/">
                         Home
                     </a></li>
                     <li><a href="/about">
@@ -33,7 +33,7 @@
                             trading assets <span>&#129171;</span>
                             <ul>
                                 <li><a href="funding-method">funding methods</a></li>
-                                <li><a href="withdrawing-method">withdrawing methods</a></li>
+                                <li><a href="withdrawal-method">withdrawing methods</a></li>
                             </ul>
                         </a>
                     </li>
