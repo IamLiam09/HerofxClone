@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
+@import '~swiper/swiper-bundle.css';
 $font: Questrial, Arial, Helvetica, sans-serif;
 $navfont: "Open Sans", sans-serif;
 $createaccfont: "Josefin Sans", sans-serif;
@@ -10,4 +11,153 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     box-sizing: border-box;
+}
+.home {
+    .first {
+        background-image: url("/public/images/herofxhomepage.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        .hodl {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            .wording {
+                h1 {
+                    font-size: 4em;
+                    font-family: $createaccfont;
+                    line-height: 1.4;
+                    word-wrap: break-word;
+                    width: 50%;
+                    font-weight: 600;
+                    background: linear-gradient(
+                        90deg,
+                        rgba(12, 61, 239, 1) 0%,
+                        rgba(61, 213, 253, 1) 86%,
+                        rgba(61, 213, 253, 1) 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-transform: capitalize;
+                }
+                p {
+                    color: #0d1754;
+                    font-size: 20px;
+                    line-height: 1.3em;
+                    -webkit-text-stroke-color: #000;
+                    stroke: #000;
+                    width: 55%;
+                }
+                a {
+                    background: linear-gradient(
+                        140deg,
+                        rgba(14, 66, 240, 1) 0%,
+                        rgb(136, 213, 235) 74%
+                    );
+                    padding: 1em 1em;
+                    text-decoration: none;
+                    color: black;
+                    width: 190px;
+                    display: block;
+                    text-transform: capitalize;
+                    border-radius: 5px;
+                    color: white;
+                    line-height: 1rem;
+                    font-family: $navfont;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .second {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        transform: translateY(-60%);
+        .services {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding-top: 60px;
+            .inner {
+                width: 200px;
+                height: 120px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: white;
+                font-family: $createaccfont;
+                font-weight: 700;
+                line-height: 1.7;
+                text-transform: uppercase;
+                color: #494b51;
+                padding: 30px 30px 30px 30px;
+                &:hover {
+                    border-bottom: 5px solid blue;
+                    transition: border 0.3s;
+                }
+            }
+        }
+    }
+    .power{
+        background-color: white;
+        .hodl{
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            height: 700px;
+            max-width: 1100px;
+            .heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 10px 40px;
+                background-image: url("/public/images/dot-grid.jpg");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                h1{
+                    font-family: $createaccfont;
+                    font-size: 50px;
+                    text-transform: capitalize;
+                }
+                p{
+                    font-family: $navfont;
+                    font-size: 15px;
+                    font-weight: 100;
+                    color: #494b51
+                }
+                a {
+                    background: linear-gradient(
+                        140deg,
+                        rgba(14, 66, 240, 1) 0%,
+                        rgb(136, 213, 235) 74%
+                    );
+                    padding: 1em 1em;
+                    text-decoration: none;
+                    color: black;
+                    width: 190px;
+                    display: block;
+                    text-transform: capitalize;
+                    border-radius: 5px;
+                    color: white;
+                    line-height: 1rem;
+                    font-family: $navfont;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+ 
+            }
+        }
+    }
 }
