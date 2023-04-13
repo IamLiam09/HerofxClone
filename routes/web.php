@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Register;
 use App\Http\Controllers\Login; 
+use App\Http\Controllers\Spanish; 
 use App\Http\Controllers\Homecontroller; 
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +31,7 @@ Route::get('/trading-asset', [Homecontroller::class, "asset"]);
 Route::get('/partners', [Homecontroller::class, "partners"]);
 Route::get('/FAQs', [Homecontroller::class, "faqs"]);
 Route::get('/login', [Login::class, "index"]);
+Route::get('/es/login', [Spanish::class, "login"]);
+Route::get('/es/register', [Spanish::class, "register"]);
 Route::get('/register', [Register::class, "index"]);
 

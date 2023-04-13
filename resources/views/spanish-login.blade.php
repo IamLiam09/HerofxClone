@@ -24,27 +24,27 @@
         <div id="google_element_element"></div> 
         <section class="main">
             <div class="text">
-                <p>Not registered yet? <br> Sign up and enjoy
-                    raw spreads or no commission trading</p>
+                <p>Se tarda menos de un <br> minuto </p>
                 <div class="registration">
-                    <a href="/register">register now</a>
+                    <a href="/register">reg</a>
                 </div>
             </div>
             <div class="box"> 
                 <div class="Lhodl">
-                    <p>login</p>
+                    <p>Ingresar
+                    </p>
                     <form method="POST" action="">
-                        <input placeholder="email" type="email" class="inputfield">
-                        <input placeholder="password" type="password" class="inputfield">
+                        <input placeholder="correo" type="email" class="inputfield">
+                        <input placeholder="contrase" type="password" class="inputfield">
                         <div class="assistance">
                             <div class="assitance features">
                                 <input type="checkbox" name="rememberme" id="rememberme">
-                                <label for="rememberme">Remember me</label>
+                                <label for="rememberme">Acu</label>
                             </div>
-                            <a href="#">forgot password</a>
+                            <a href="#">contrase</a>
                         </div>
                         <div class="loginbtnhodl">
-                            <a href="" class="loginbtn">Login</a>
+                            <a href="" class="loginbtn">ingresar</a>
                         </div>
                     </form>
                 </div>
@@ -52,10 +52,9 @@
         </section>
         <div class="risk">
             <br>
-            <p>For login or registration issues, please email us at support@herofx.co<br>
-            Disclaimer: This website is not directed at any jurisdication and is not intended for any use that would be contrar to local or regulation.<br>
-            Risk Warning: Trading leveraged products such as Forex may not be suitable for all investors as they carray a degree of risk to your capital, Please ensure that you fully<br>
-            understand the risks involved, taking into account your invesments objectives and level of experience, before trading, and if necessary seek independent advice</p> 
+            <p>
+                Para problemas de inicio de sesi
+                </p> 
         </div>
     </div>
 </body>

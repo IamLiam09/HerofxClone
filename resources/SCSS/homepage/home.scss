@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&display=swap");
-@import '~swiper/swiper-bundle.css';
+@import "~swiper/css/swiper.css";
+@import "~swiper/swiper-bundle.css";
 $font: Questrial, Arial, Helvetica, sans-serif;
 $navfont: "Open Sans", sans-serif;
 $createaccfont: "Josefin Sans", sans-serif;
@@ -106,15 +107,15 @@ body {
             }
         }
     }
-    .power{
+    .power {
         background-color: white;
-        .hodl{
+        .hodl {
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             height: 700px;
             max-width: 1100px;
-            .heading{
+            .heading {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -123,16 +124,16 @@ body {
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                h1{
+                h1 {
                     font-family: $createaccfont;
                     font-size: 50px;
                     text-transform: capitalize;
                 }
-                p{
+                p {
                     font-family: $navfont;
                     font-size: 15px;
                     font-weight: 100;
-                    color: #494b51
+                    color: #494b51;
                 }
                 a {
                     background: linear-gradient(
@@ -156,8 +157,11 @@ body {
                     text-transform: uppercase;
                     margin-top: 10px;
                 }
- 
             }
         }
+    }
+    .swiper{
+        width: 600px;
+        height: 300px;
     }
 }

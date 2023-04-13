@@ -7,6 +7,11 @@
     <title>@yield("title")</title>
     @vite(['resources/scss/style.scss', 'resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="layout">
@@ -47,10 +52,10 @@
                 </ul>
             </div>
             <div class="users">
-                <a href="#" class="users login">
+                <a href="/login" class="users login">
                     login
                 </a>
-                <a href="#" class="users register">
+                <a href="/register" class="users register">
                     open a free account
                 </a>
             </div>

@@ -36,20 +36,26 @@ body{
                 a {
                     display: inline-block;
                     line-height: 3.8rem;
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                     border-radius: 3.7rem;
-                    padding: 0 35px;
+                    padding: 0 45px;
                     border: 1.6px solid #212121;
                     color: #212121;
                     font-weight: 600;
                     letter-spacing: 1.25px;
                     transition: background-color 0.3;
-                    background-color: #0d1754;
+                    background: #0d1754;
                     color: white;
                     font-family: $font;
                     text-transform: uppercase;
                     text-decoration: none;
                     margin-top: 15px;
+                    &:hover{
+                        background: white;
+                        border-radius: 1px solid #0d1754;
+                        color: #0d1754;
+                        transition: background 0.3;
+                    }
                 }
             }
         }
@@ -127,11 +133,6 @@ body{
                         font-family: $font;
                         text-transform: capitalize;
                         text-decoration: none;
-                        &:hover{
-                            background-color: white;
-                            border: 1px solid #212121;
-                            color: #212121;
-                        }
                     }
                 }
             }
@@ -139,8 +140,10 @@ body{
     }
     .risk {
         padding: 1.5rem 0 0;
+        margin-top: 20px;
         text-align: center;
         font-size: 0.8rem;
         color: #727272;
+        line-height: 1.3;
     }
 }
